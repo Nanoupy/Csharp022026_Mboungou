@@ -1,0 +1,14 @@
+C:\Users\utente\Desktop\c#\mattino\progetto01\bin\Debug\net10.0\progetto01.exe
+C:\Users\utente\Desktop\c#\mattino\progetto01\bin\Debug\net10.0\progetto01.deps.json
+C:\Users\utente\Desktop\c#\mattino\progetto01\bin\Debug\net10.0\progetto01.runtimeconfig.json
+C:\Users\utente\Desktop\c#\mattino\progetto01\bin\Debug\net10.0\progetto01.dll
+C:\Users\utente\Desktop\c#\mattino\progetto01\bin\Debug\net10.0\progetto01.pdb
+C:\Users\utente\Desktop\c#\mattino\progetto01\obj\Debug\net10.0\progetto01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\utente\Desktop\c#\mattino\progetto01\obj\Debug\net10.0\progetto01.AssemblyInfoInputs.cache
+C:\Users\utente\Desktop\c#\mattino\progetto01\obj\Debug\net10.0\progetto01.AssemblyInfo.cs
+C:\Users\utente\Desktop\c#\mattino\progetto01\obj\Debug\net10.0\progetto01.csproj.CoreCompileInputs.cache
+C:\Users\utente\Desktop\c#\mattino\progetto01\obj\Debug\net10.0\progetto01.dll
+C:\Users\utente\Desktop\c#\mattino\progetto01\obj\Debug\net10.0\refint\progetto01.dll
+C:\Users\utente\Desktop\c#\mattino\progetto01\obj\Debug\net10.0\progetto01.pdb
+C:\Users\utente\Desktop\c#\mattino\progetto01\obj\Debug\net10.0\progetto01.genruntimeconfig.cache
+C:\Users\utente\Desktop\c#\mattino\progetto01\obj\Debug\net10.0\ref\progetto01.dll
