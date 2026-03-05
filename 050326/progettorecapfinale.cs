@@ -67,7 +67,7 @@ class Program
         int oraAttuale = 22;
         // Creazione oggetti
         Persona dip = new Persona("Exaucee Nahira", "B013");
-        Persona man = new Persona("Mathieu Kevin", "M999");
+        Persona man = new Persona("Matteo Bol", "M999");
         // polimorfismo: usiamo riferimenti della classe base permessoAccesso
         PermessoAccesso perm1 = new PermessoDipendente();
         PermessoAccesso perm2 = new PermessoManager();
