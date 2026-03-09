@@ -1,5 +1,5 @@
 using System;
-
+//senza menu
 // interfaccia
 public interface IVeicolo
 {
