@@ -3,7 +3,7 @@ using System.Collections.Generic;
 public sealed class Logger
 {
     private static Logger _instance;
-    // Oggetto di lock per la sicurezza (thread-safety)
+    // oggetto di lock per la sicurezza (thread-safety)
     private static readonly object _lock = new object();
     // lista interna per memorizzare i messaggi di log
     private List<string> cronologiaLog;
@@ -52,10 +52,9 @@ class Program
         // otteniamo di nuovo l'istanza in una variabile diversa
         Logger secondoRiferimento = Logger.Instance;
         secondoRiferimento.Log("Messaggio inviato dal secondo riferimento.");
-        // Dimostriamo che i log sono finiti nello stesso posto
-        // Chiamiamo la stampa usando il secondo riferimento
+        //  i log sono finiti nello stesso posto
         secondoRiferimento.StampaTuttiILog();
-        // Verifica finale: sono lo stesso oggetto?
+        // Verifica finale
         if (ReferenceEquals(primoRiferimento, secondoRiferimento))
         {
             Console.WriteLine("\nVerifica: Entrambi i riferimenti puntano allo stesso oggetto!");
