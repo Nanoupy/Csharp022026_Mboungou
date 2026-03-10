@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-
 namespace EsercizioObserverMeteo
 {
     public interface IObserver
