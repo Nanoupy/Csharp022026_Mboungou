@@ -88,3 +88,4 @@ class Program
         miaCalcolatrice.EseguiOperazione(n1, n2);
     }
 }
+// far el'extra aggiungendo l'observer
