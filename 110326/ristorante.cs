@@ -2,14 +2,14 @@ using System;
 using System.Collections.Generic;
 //programma ordine ristorante usando i  5 pattern
 namespace Ristorante;
-//observer
+//observer per notificare la cameriera quando il piatto è pronto 
 public interface IObserver { void Aggiorna(string messaggio); }
 public class Cameriere : IObserver 
 {
     public void Aggiorna(string messaggio) => 
         Console.WriteLine($"[Cameriera]: Ricevuto! Porto subito '{messaggio}' al tavolo.");
 }
-//strategy
+//strategy per definire il metodo di cottura 
 public interface IPreparazioneStrategia { string Prepara(string desc); }
 public class AlForno : IPreparazioneStrategia 
 { 
@@ -19,7 +19,7 @@ public class Fritto : IPreparazioneStrategia
 { 
     public string Prepara(string desc) => $"[Cottura fritto]: {desc} croccante."; 
 }
-//decorator
+//decorator per aggiungere ingredienti extra 
 public interface IPiatto { string Descrizione(); }
 public class Pizza : IPiatto { public string Descrizione() => "Pizza Diavola"; }
 public class Hamburger : IPiatto { public string Descrizione() => "Hamburger di Pollo"; }
@@ -34,7 +34,7 @@ public class ConFormaggio : IngredienteExtra
     public ConFormaggio(IPiatto p) : base(p) { }
     public override string Descrizione() => _piatto.Descrizione() + " + extra Formaggio";
 }
-//factory
+//factory crea il piatto base 
 public static class PiattoFactory
 {
     public static IPiatto Crea(string tipo) => tipo.ToLower() switch
@@ -44,7 +44,7 @@ public static class PiattoFactory
         _ => null
     };
 }
-//singleton
+//singleton per garentire l'esistenza di un unico chef 
 public class Chef
 {
     private static Chef _instance;
